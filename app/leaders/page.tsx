@@ -2,18 +2,18 @@ import type { Metadata } from 'next'
 import leadersData from '@/data/leaders.json'
 
 export const metadata: Metadata = {
-  title: 'Leaders — The Vama Stack',
-  description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators — not commentators, not hype accounts. People I actually learn from.',
+  title: 'Leaders - The Vama Stack',
+  description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators - not commentators, not hype accounts. People I actually learn from.',
   openGraph: {
-    title: 'Leaders — The Vama Stack',
-    description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators — not commentators, not hype accounts. People I actually learn from.',
+    title: 'Leaders - The Vama Stack',
+    description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators - not commentators, not hype accounts. People I actually learn from.',
     url: 'https://thevamastack.co',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Leaders — The Vama Stack',
-    description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators — not commentators, not hype accounts. People I actually learn from.',
+    title: 'Leaders - The Vama Stack',
+    description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators - not commentators, not hype accounts. People I actually learn from.',
   },
 }
 
@@ -31,7 +31,7 @@ export default function LeadersPage() {
       <div className="page-hero" style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
         <h1>Leaders</h1>
         <p style={{ marginTop: '16px' }}>
-          People I actually follow to stay sharp. Builders sharing real operational data from the agentic frontier — not commentators, not hype accounts.
+          People I actually follow to stay sharp. Builders sharing real operational data from the agentic frontier - not commentators, not hype accounts.
           Every account here posts from direct operational experience, has a documented body of
           work, and passes the &quot;specific and testable&quot; standard.
         </p>

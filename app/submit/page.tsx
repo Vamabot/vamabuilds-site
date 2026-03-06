@@ -2,17 +2,17 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Submit a Listing — The Vama Stack',
+  title: 'Submit a Listing - The Vama Stack',
   description: 'Submit a tool, practitioner, or service provider for review. Eight-step vetting process. No pay-to-play. If it belongs, it gets listed.',
   openGraph: {
-    title: 'Submit a Listing — The Vama Stack',
+    title: 'Submit a Listing - The Vama Stack',
     description: 'Submit a tool, practitioner, or service provider for review. Eight-step vetting process. No pay-to-play. If it belongs, it gets listed.',
     url: 'https://thevamastack.co',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Submit a Listing — The Vama Stack',
+    title: 'Submit a Listing - The Vama Stack',
     description: 'Submit a tool, practitioner, or service provider for review. Eight-step vetting process. No pay-to-play. If it belongs, it gets listed.',
   },
 }

@@ -3,17 +3,17 @@ import toolsData from '@/data/tools.json'
 import ToolsGrid from '@/components/ToolsGrid'
 
 export const metadata: Metadata = {
-  title: 'Tools — The Vama Stack',
+  title: 'Tools - The Vama Stack',
   description: 'Agentic org tools I actually run: orchestration frameworks, LLM APIs, deployment infrastructure, observability, and comms. Tested in production, not just bookmarked.',
   openGraph: {
-    title: 'Tools — The Vama Stack',
+    title: 'Tools - The Vama Stack',
     description: 'Agentic org tools I actually run: orchestration frameworks, LLM APIs, deployment infrastructure, observability, and comms. Tested in production, not just bookmarked.',
     url: 'https://thevamastack.co',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tools — The Vama Stack',
+    title: 'Tools - The Vama Stack',
     description: 'Agentic org tools I actually run: orchestration frameworks, LLM APIs, deployment infrastructure, observability, and comms. Tested in production, not just bookmarked.',
   },
 }

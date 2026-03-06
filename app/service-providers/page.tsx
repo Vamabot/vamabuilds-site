@@ -2,17 +2,17 @@ import type { Metadata } from 'next'
 import EmailCapture from '@/components/EmailCapture'
 
 export const metadata: Metadata = {
-  title: 'Service Providers — The Vama Stack',
+  title: 'Service Providers - The Vama Stack',
   description: 'Vetted implementation partners with verifiable track records building agentic systems. Coming soon as I learn more from my own journey and the community.',
   openGraph: {
-    title: 'Service Providers — The Vama Stack',
+    title: 'Service Providers - The Vama Stack',
     description: 'Vetted implementation partners with verifiable track records building agentic systems. Coming soon as I learn more from my own journey and the community.',
     url: 'https://thevamastack.co',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Service Providers — The Vama Stack',
+    title: 'Service Providers - The Vama Stack',
     description: 'Vetted implementation partners with verifiable track records building agentic systems. Coming soon as I learn more from my own journey and the community.',
   },
 }

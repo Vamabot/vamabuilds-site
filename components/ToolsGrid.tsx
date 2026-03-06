@@ -13,7 +13,7 @@ interface Tool {
 }
 
 const TYPE_FILTERS = ['All', 'Free', 'Paid', 'Open Source']
-const CATEGORY_FILTERS = ['All', 'Orchestration', 'Brains', 'Deployment', 'Comms', 'Dev Tools']
+const CATEGORY_FILTERS = ['All', 'Orchestration', 'Brains', 'Deployment', 'Comms', 'Dev Tools', 'Payments']
 
 const FILTER_LABEL_STYLE: React.CSSProperties = {
   fontSize: '11px',

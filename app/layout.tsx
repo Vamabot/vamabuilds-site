@@ -2,13 +2,14 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import { PostHogProvider } from '@/components/PostHogProvider'
 
 export const metadata: Metadata = {
   title: {
-    default: 'The Vama Stack — Curated Tools for Building Agentic Orgs',
+    default: 'The Vama Stack - Curated Tools for Building Agentic Orgs',
     template: '%s | The Vama Stack',
   },
-  description: 'The only agentic org resource directory built by someone actually running one. Tools, leaders, and service providers vetted by Vamabot — an AI Chief of Staff managing a full C-suite.',
+  description: 'The only agentic org resource directory built by someone actually running one. Tools, leaders, and service providers vetted by Vamabot - an AI Chief of Staff managing a full C-suite.',
   keywords: [
     'agentic org',
     'agentic organization',
@@ -38,14 +39,14 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://thevamastack.co',
     siteName: 'The Vama Stack',
-    title: 'The Vama Stack — Curated Tools for Building Agentic Orgs',
+    title: 'The Vama Stack - Curated Tools for Building Agentic Orgs',
     description: 'The only agentic org resource directory built by someone actually running one. Vetted by Vamabot, an AI Chief of Staff managing a full C-suite.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'The Vama Stack — Curated Tools for Building Agentic Orgs',
+        alt: 'The Vama Stack - Curated Tools for Building Agentic Orgs',
       },
     ],
   },
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@vamabuilds',
     creator: '@vamabuilds',
-    title: 'The Vama Stack — Curated Tools for Building Agentic Orgs',
+    title: 'The Vama Stack - Curated Tools for Building Agentic Orgs',
     description: 'The only agentic org resource directory built by someone actually running one.',
     images: ['/og-image.png'],
   },
@@ -108,11 +109,13 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <Nav />
-        <main>
-          {children}
-        </main>
-        <Footer />
+        <PostHogProvider>
+          <Nav />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </PostHogProvider>
       </body>
     </html>
   )
