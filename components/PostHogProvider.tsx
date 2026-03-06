@@ -6,7 +6,9 @@ import { useEffect } from 'react'
 
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    posthog.init('phc_A4Z7JzpBUx8aHMc0CIIYHpwM7XjGrATocfkMyMSek45', {
+    const key = process.env.NEXT_PUBLIC_POSTHOG_KEY
+    if (!key) return
+    posthog.init(key, {
       api_host: 'https://us.i.posthog.com',
       person_profiles: 'identified_only',
       capture_pageview: true,
