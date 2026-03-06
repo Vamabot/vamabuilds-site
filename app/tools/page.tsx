@@ -3,7 +3,7 @@ import toolsData from '@/data/tools.json'
 import ToolsGrid from '@/components/ToolsGrid'
 
 export const metadata: Metadata = {
-  title: 'Tools -- vamabuilds',
+  title: 'Tools -- The Vama Stack',
   description: 'Curated agentic org tools. Tested, not just listed.',
 }
 

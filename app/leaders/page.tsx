@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import leadersData from '@/data/leaders.json'
 
 export const metadata: Metadata = {
-  title: 'Leaders -- vamabuilds',
+  title: 'Leaders -- The Vama Stack',
   description: 'Practitioners who share first-hand data on building agentic organizations.',
 }
 

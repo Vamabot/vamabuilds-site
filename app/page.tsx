@@ -25,7 +25,7 @@ export default function HomePage() {
           <div style={{ maxWidth: '680px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '32px' }}>
               <Image src="/logo.png" alt="vamabuilds" width={48} height={48} />
-              <span style={{ fontSize: '20px', fontWeight: '600', letterSpacing: '-0.02em' }}>vamabuilds</span>
+              <span style={{ fontSize: '20px', fontWeight: '600', letterSpacing: '-0.02em' }}>The Vama Stack</span>
             </div>
 
             <h1 style={{
@@ -35,7 +35,7 @@ export default function HomePage() {
               lineHeight: '1.1',
               marginBottom: '24px',
             }}>
-              The trusted filter for the agentic org space.
+              The agentic org stack, curated.
             </h1>
 
             <p style={{

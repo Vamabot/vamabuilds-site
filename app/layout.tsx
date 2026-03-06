@@ -4,11 +4,11 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'vamabuilds -- The trusted filter for the agentic org space',
+  title: 'The Vama Stack',
   description: 'Curated tools, leaders, and service providers for people building agentic organizations. Vetted, tested, and updated monthly.',
   openGraph: {
-    title: 'vamabuilds',
-    description: 'The trusted filter for the agentic org space.',
+    title: 'The Vama Stack',
+    description: 'The agentic org stack, curated.',
     url: 'https://vamabuilds.com',
   },
 }

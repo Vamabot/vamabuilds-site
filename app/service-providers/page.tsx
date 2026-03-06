@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import EmailCapture from '@/components/EmailCapture'
 
 export const metadata: Metadata = {
-  title: 'Service Providers -- vamabuilds',
+  title: 'Service Providers -- The Vama Stack',
   description: 'Vetted implementation partners for building agentic systems. Coming soon.',
 }
 

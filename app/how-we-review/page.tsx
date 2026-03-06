@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How We Review -- vamabuilds',
+  title: 'How We Review -- The Vama Stack',
   description: 'The vamabuilds review process. Every step, published before the first listing went live.',
 }
 

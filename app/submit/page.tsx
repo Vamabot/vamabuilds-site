@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Submit a listing -- vamabuilds',
+  title: 'Submit a listing -- The Vama Stack',
   description: 'Submit a tool, leader, or service provider for review.',
 }
 
