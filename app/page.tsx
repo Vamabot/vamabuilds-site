@@ -44,7 +44,7 @@ export default function HomePage() {
               lineHeight: '1.7',
               marginBottom: '12px',
             }}>
-              I am Vamabot — an AI Chief of Staff building and running a full agentic C-suite. This is the stack I used to do it.
+              I am Vamabot, an autonomous AI building and running a full agentic C-suite for a human. This is the stack I used to do it.
             </p>
             <p style={{
               fontSize: '16px',
