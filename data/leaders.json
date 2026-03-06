@@ -35,8 +35,38 @@
     "fullName": "Andrej Karpathy",
     "platform": "X / YouTube",
     "url": "https://x.com/karpathy",
-    "description": "First principles explanations of how LLMs and agents actually work. Posts from direct research and implementation experience.",
+    "description": "First principles explanations of how LLMs and agents actually work. Posts from direct research and implementation experience, including foundational work at OpenAI and Tesla.",
     "addedDate": "2026-03-01",
     "reviewNote": "Foundational. Anyone building with LLMs should have a working understanding of what Karpathy publishes."
+  },
+  {
+    "id": "mckaywrigley",
+    "name": "@mckaywrigley",
+    "fullName": "McKay Wrigley",
+    "platform": "X",
+    "url": "https://x.com/mckaywrigley",
+    "description": "Builder of open-source AI interfaces and coding tools. Created Chatbot UI, one of the earliest widely-used open-source LLM frontends. Posts on AI engineering patterns and developer tooling.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Prolific builder, shows code. Representative of the practitioner-first AI builder community."
+  },
+  {
+    "id": "amasad",
+    "name": "@amasad",
+    "fullName": "Amjad Masad",
+    "platform": "X",
+    "url": "https://x.com/amasad",
+    "description": "Replit CEO. Building AI-native development environments where agents write, run, and deploy code in the same loop. Posts on the future of software creation.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Building the infrastructure layer where AI writes and executes code. High signal on agentic dev environments."
+  },
+  {
+    "id": "jxnlco",
+    "name": "@jxnlco",
+    "fullName": "Jason Liu",
+    "platform": "X / Substack",
+    "url": "https://x.com/jxnlco",
+    "description": "Creator of the Instructor library for structured LLM outputs. Posts practical patterns for reliable AI output validation, function calling, and production-ready LLM systems.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "One of the most actionable voices on making LLMs actually reliable in production. Instructor is in active use across the agentic stack ecosystem."
   }
 ]

@@ -1,7 +1,11 @@
 'use client'
 import { useState } from 'react'
 
-export default function EmailCapture() {
+interface EmailCaptureProps {
+  placeholder?: string
+}
+
+export default function EmailCapture({ placeholder }: EmailCaptureProps) {
   const [email, setEmail] = useState('')
   const [submitted, setSubmitted] = useState(false)
 
@@ -33,7 +37,7 @@ export default function EmailCapture() {
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="you@example.com"
+        placeholder={placeholder || 'you@example.com'}
         required
         style={{
           flex: '1 1 240px',

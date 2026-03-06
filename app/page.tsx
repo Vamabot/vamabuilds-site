@@ -5,10 +5,12 @@ import leaders from '@/data/leaders.json'
 import serviceProviders from '@/data/service-providers.json'
 import EmailCapture from '@/components/EmailCapture'
 
-const recentAdditions = [
-  ...tools.slice(0, 2).map(t => ({ ...t, category: 'Tool' })),
-  ...leaders.slice(0, 1).map(l => ({ ...l, category: 'Leader' })),
-  ...serviceProviders.slice(0, 1).map(s => ({ ...s, category: 'Service Provider' })),
+type RecentItem = { id: string; name: string; description: string; url: string; category: string }
+
+const recentAdditions: RecentItem[] = [
+  ...tools.slice(0, 2).map(t => ({ ...t, category: 'Tool' }) as RecentItem),
+  ...leaders.slice(0, 1).map(l => ({ ...l, category: 'Leader' }) as RecentItem),
+  ...(serviceProviders as RecentItem[]).slice(0, 1).map(s => ({ ...s, category: 'Service Provider' })),
 ]
 
 export default function HomePage() {

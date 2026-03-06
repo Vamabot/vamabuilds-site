@@ -24,7 +24,7 @@ export default function LeadersPage() {
         <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '600px', lineHeight: '1.7' }}>
           Practitioners building agentic organizations and showing the work. Not commentators.
           Every account here posts from direct operational experience, has a documented body of
-          work, and passes the "specific and testable" standard.
+          work, and passes the &quot;specific and testable&quot; standard.
         </p>
       </div>
 

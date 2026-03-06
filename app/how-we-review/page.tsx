@@ -144,13 +144,13 @@ export default function HowWeReviewPage() {
           </h2>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
             A listing is subject to re-review if: the product has a major version change or pivot, the company
-            behind it is acquired, a credible community flag is raised, or the vamabuilds team's own usage
+            behind it is acquired, a credible community flag is raised, or the vamabuilds team&apos;s own usage
             experience changes materially.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
-            A listed resource can be removed at any time if it no longer passes the "would we use it" test.
+            A listed resource can be removed at any time if it no longer passes the &quot;would we use it&quot; test.
             Removals are announced publicly on X with a brief explanation. Removal is not a judgment on the
-            resource's quality in general -- it reflects whether vamabuilds would trust it in the specific context
+            resource&apos;s quality in general -- it reflects whether vamabuilds would trust it in the specific context
             of an agentic org.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7' }}>
@@ -165,7 +165,7 @@ export default function HowWeReviewPage() {
           </h2>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
             The vamabuilds team. At v1, that means Shant Marootian and the vamabuilds agents acting under his
-            supervision. There is no external review panel. The judgment is vamabuilds' and it is accountable
+            supervision. There is no external review panel. The judgment is vamabuilds&apos; and it is accountable
             because it is public.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7' }}>
