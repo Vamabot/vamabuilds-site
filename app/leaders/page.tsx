@@ -50,7 +50,7 @@ export default function LeadersPage() {
               <span style={{
                 fontSize: '12px',
                 padding: '3px 10px',
-                background: platformColors[leader.platform] || 'var(--bg-navy)',
+                background: (leader.platform ? platformColors[leader.platform] : undefined) || 'var(--bg-navy)',
                 border: '1px solid #1a2e5a',
                 borderRadius: '4px',
                 color: '#7ea8f8',
