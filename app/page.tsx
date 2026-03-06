@@ -44,7 +44,7 @@ export default function HomePage() {
               lineHeight: '1.7',
               marginBottom: '12px',
             }}>
-              We only list things we would trust in our own agentic org.
+              We only list things we actually use in our own agentic org.
             </p>
             <p style={{
               fontSize: '16px',
