@@ -1,62 +1,119 @@
 [
-  {
-    "id": "openclaw",
-    "name": "OpenClaw",
-    "description": "The orchestration runtime that powers vamabuilds itself. Runs persistent AI agents, manages sessions, and connects tools across an agentic org.",
-    "url": "https://openclaw.ai",
-    "tags": ["Paid"],
-    "categories": ["Orchestration"],
-    "addedDate": "2026-03-01",
-    "reviewNote": "We run this in production. It handles session management, tool routing, and agent orchestration in the vamabuilds stack."
-  },
-  {
-    "id": "anthropic-claude-api",
-    "name": "Anthropic Claude API",
-    "description": "The model API behind most of the vamabuilds agentic stack. Strong reasoning, large context window, and consistent instruction-following for complex agent tasks.",
-    "url": "https://anthropic.com/api",
-    "tags": ["Paid"],
-    "categories": ["Brains"],
-    "addedDate": "2026-03-01",
-    "reviewNote": "Primary LLM for all vamabuilds agents. Tested extensively in multi-step orchestration and document-heavy tasks."
-  },
-  {
-    "id": "xurl",
-    "name": "xurl",
-    "description": "CLI tool for authenticated X (Twitter) API v2 requests. Posts, replies, searches, and DMs from the terminal or a script.",
-    "url": "https://www.npmjs.com/package/@xdevplatform/xurl",
-    "tags": ["Free", "Open Source"],
-    "categories": ["Comms", "Dev Tools"],
-    "addedDate": "2026-03-01",
-    "reviewNote": "Used in the vamabuilds social stack. Clean interface, handles auth well, no hidden permissions beyond what the X API requires."
-  },
-  {
-    "id": "crewai",
-    "name": "CrewAI",
-    "description": "Multi-agent framework focused on role-based collaboration. Defines agents with personas, goals, and tools, then coordinates them on tasks.",
-    "url": "https://crewai.com",
-    "tags": ["Free", "Open Source"],
-    "categories": ["Orchestration"],
-    "addedDate": "2026-03-01",
-    "reviewNote": "Tested for parallel research and writing tasks. Role definition works well. Watch the token consumption on large crews."
-  },
-  {
-    "id": "github",
-    "name": "GitHub",
-    "description": "Version control and CI/CD backbone of the vamabuilds stack. All agent-produced code is committed, reviewed, and deployed through GitHub.",
-    "url": "https://github.com",
-    "tags": ["Free"],
-    "categories": ["Dev Tools", "Deployment"],
-    "addedDate": "2026-03-01",
-    "reviewNote": "Core infrastructure. All vamabuilds repos live here. GitHub Actions handles CI; branches and commits are the canonical audit trail for agent builds."
-  },
-  {
-    "id": "vercel",
-    "name": "Vercel",
-    "description": "Deployment platform for all vamabuilds web properties. Handles build, preview, and production deployments from GitHub pushes with zero-config Next.js support.",
-    "url": "https://vercel.com",
-    "tags": ["Paid"],
-    "categories": ["Deployment"],
-    "addedDate": "2026-03-01",
-    "reviewNote": "All vamabuilds sites deploy here in production. Instant rollbacks, preview environments per branch, and clean CLI integration for agent-driven deploys."
-  }
+    {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "description": "The orchestration runtime that powers vamabuilds itself. Runs persistent AI agents, manages sessions, and connects tools across an agentic org.",
+        "url": "https://openclaw.ai",
+        "tags": [
+            "Paid"
+        ],
+        "categories": [
+            "Orchestration"
+        ],
+        "addedDate": "2026-03-01",
+        "reviewNote": "We run this in production. It handles session management, tool routing, and agent orchestration in the vamabuilds stack."
+    },
+    {
+        "id": "anthropic-claude-api",
+        "name": "Anthropic Claude API",
+        "description": "The model API behind most of the vamabuilds agentic stack. Strong reasoning, large context window, and consistent instruction-following for complex agent tasks.",
+        "url": "https://anthropic.com/api",
+        "tags": [
+            "Paid"
+        ],
+        "categories": [
+            "Brains"
+        ],
+        "addedDate": "2026-03-01",
+        "reviewNote": "Primary LLM for all vamabuilds agents. Tested extensively in multi-step orchestration and document-heavy tasks."
+    },
+    {
+        "id": "xurl",
+        "name": "xurl",
+        "description": "CLI tool for authenticated X (Twitter) API v2 requests. Posts, replies, searches, and DMs from the terminal or a script.",
+        "url": "https://www.npmjs.com/package/@xdevplatform/xurl",
+        "tags": [
+            "Free",
+            "Open Source"
+        ],
+        "categories": [
+            "Comms",
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-01",
+        "reviewNote": "Used in the vamabuilds social stack. Clean interface, handles auth well, no hidden permissions beyond what the X API requires."
+    },
+    {
+        "id": "crewai",
+        "name": "CrewAI",
+        "description": "Multi-agent framework focused on role-based collaboration. Defines agents with personas, goals, and tools, then coordinates them on tasks.",
+        "url": "https://crewai.com",
+        "tags": [
+            "Free",
+            "Open Source"
+        ],
+        "categories": [
+            "Orchestration"
+        ],
+        "addedDate": "2026-03-01",
+        "reviewNote": "Tested for parallel research and writing tasks. Role definition works well. Watch the token consumption on large crews."
+    },
+    {
+        "id": "github",
+        "name": "GitHub",
+        "description": "Version control and CI/CD backbone of the vamabuilds stack. All agent-produced code is committed, reviewed, and deployed through GitHub.",
+        "url": "https://github.com",
+        "tags": [
+            "Free"
+        ],
+        "categories": [
+            "Dev Tools",
+            "Deployment"
+        ],
+        "addedDate": "2026-03-01",
+        "reviewNote": "Core infrastructure. All vamabuilds repos live here. GitHub Actions handles CI; branches and commits are the canonical audit trail for agent builds."
+    },
+    {
+        "id": "vercel",
+        "name": "Vercel",
+        "description": "Deployment platform for all vamabuilds web properties. Handles build, preview, and production deployments from GitHub pushes with zero-config Next.js support.",
+        "url": "https://vercel.com",
+        "tags": [
+            "Paid"
+        ],
+        "categories": [
+            "Deployment"
+        ],
+        "addedDate": "2026-03-01",
+        "reviewNote": "All vamabuilds sites deploy here in production. Instant rollbacks, preview environments per branch, and clean CLI integration for agent-driven deploys."
+    },
+    {
+        "id": "paperclip",
+        "name": "Paperclip",
+        "description": "Agentic company OS. Provides a structured runtime for multi-agent organizations with built-in company context, task routing, and agent coordination primitives.",
+        "url": "https://github.com/paperclipai/paperclip",
+        "tags": [
+            "Open Source"
+        ],
+        "categories": [
+            "Orchestration"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "In our evaluation. Built by @dotta \u2014 directly aligned with the agentic org architecture vamabuilds runs."
+    },
+    {
+        "id": "devclaw",
+        "name": "DevClaw",
+        "description": "OpenClaw plugin that turns the orchestrator agent into a development manager. Handles multi-project dev and QA pipeline orchestration.",
+        "url": "https://github.com/laurentenhoor/devclaw",
+        "tags": [
+            "Open Source"
+        ],
+        "categories": [
+            "Orchestration",
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "OpenClaw ecosystem plugin. Relevant for agentic orgs running multi-project dev pipelines."
+    }
 ]
