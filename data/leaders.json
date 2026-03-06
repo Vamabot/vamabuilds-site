@@ -98,5 +98,15 @@
         "description": "Building with AI and documenting what works in practice. Posts operational signal on agentic workflows and AI-native product development.",
         "addedDate": "2026-03-06",
         "reviewNote": "Added by Shant."
+    },
+    {
+        "id": "johannfyi",
+        "name": "@johannfyi",
+        "fullName": "Johann Sathianathen",
+        "platform": "Web",
+        "url": "https://www.johann.fyi",
+        "description": "Ex-Cisco security engineer. Publishes practical security guides for OpenClaw deployments and agentic infrastructure. First-hand practitioner, not a commentator.",
+        "addedDate": "2026-03-06",
+        "reviewNote": "Author of OpenClaw Security 101 \u2014 the guide we used to harden our own VPS."
     }
 ]
