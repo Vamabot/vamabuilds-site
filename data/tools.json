@@ -176,5 +176,19 @@
         ],
         "addedDate": "2026-03-06",
         "reviewNote": "Used to secure the vamabuilds infrastructure network."
+    },
+    {
+        "id": "vultr",
+        "name": "Vultr",
+        "description": "Cloud infrastructure provider. Hosts the VPS running the vamabuilds agentic stack. Simple pricing, global data centers, and straightforward VM provisioning.",
+        "url": "https://vultr.com",
+        "tags": [
+            "Paid"
+        ],
+        "categories": [
+            "Deployment"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "Our primary VPS host. The vamabuilds agent runtime runs on a Vultr instance."
     }
 ]
