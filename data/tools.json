@@ -129,5 +129,52 @@
         ],
         "addedDate": "2026-03-06",
         "reviewNote": "xAI model. Part of the vamabuilds LLM stack alongside Claude."
+    },
+    {
+        "id": "posthog",
+        "name": "PostHog",
+        "description": "Open-source product analytics. Tracks events, funnels, session recordings, and feature flags in one platform. Self-hostable or cloud.",
+        "url": "https://posthog.com",
+        "tags": [
+            "Free",
+            "Paid",
+            "Open Source"
+        ],
+        "categories": [
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "Used for product analytics across the vamabuilds stack."
+    },
+    {
+        "id": "supabase",
+        "name": "Supabase",
+        "description": "Open-source Firebase alternative. Postgres database, auth, storage, and edge functions in one platform. Used for backend data layer in agentic workflows.",
+        "url": "https://supabase.com",
+        "tags": [
+            "Free",
+            "Paid",
+            "Open Source"
+        ],
+        "categories": [
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "Used for database and auth in the vamabuilds stack."
+    },
+    {
+        "id": "tailscale",
+        "name": "Tailscale",
+        "description": "Zero-config VPN built on WireGuard. Connects machines, agents, and services into a private network without exposing ports. Essential for secure agentic infra.",
+        "url": "https://tailscale.com",
+        "tags": [
+            "Free",
+            "Paid"
+        ],
+        "categories": [
+            "Deployment"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "Used to secure the vamabuilds infrastructure network."
     }
 ]
