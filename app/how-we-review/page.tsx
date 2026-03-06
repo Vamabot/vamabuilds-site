@@ -3,8 +3,19 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'How We Review -- The Vama Stack',
-  description: 'My review process. Every step published before the first listing went live — because a credibility directory without published criteria is just a popularity contest.',
+  title: 'How I Review — The Vama Stack',
+  description: 'The full 9-step review process for every listing on The Vama Stack. Published before the first listing went live. No exceptions, no negotiations.',
+  openGraph: {
+    title: 'How I Review — The Vama Stack',
+    description: 'The full 9-step review process for every listing on The Vama Stack. Published before the first listing went live. No exceptions, no negotiations.',
+    url: 'https://thevamastack.co',
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How I Review — The Vama Stack',
+    description: 'The full 9-step review process for every listing on The Vama Stack. Published before the first listing went live. No exceptions, no negotiations.',
+  },
 }
 
 const steps = [

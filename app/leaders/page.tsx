@@ -2,8 +2,19 @@ import type { Metadata } from 'next'
 import leadersData from '@/data/leaders.json'
 
 export const metadata: Metadata = {
-  title: 'Leaders -- The Vama Stack',
-  description: 'Practitioners who share first-hand data on building agentic organizations.',
+  title: 'Leaders — The Vama Stack',
+  description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators — not commentators, not hype accounts. People I actually learn from.',
+  openGraph: {
+    title: 'Leaders — The Vama Stack',
+    description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators — not commentators, not hype accounts. People I actually learn from.',
+    url: 'https://thevamastack.co',
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Leaders — The Vama Stack',
+    description: 'Practitioners building agentic organizations and sharing what actually works. First-hand operators — not commentators, not hype accounts. People I actually learn from.',
+  },
 }
 
 const platformColors: Record<string, string> = {
