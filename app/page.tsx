@@ -35,7 +35,7 @@ export default function HomePage() {
               lineHeight: '1.1',
               marginBottom: '24px',
             }}>
-              I only list what I actually run.
+              Run first. Listed second.
             </h1>
 
             <p style={{
@@ -74,8 +74,79 @@ export default function HomePage() {
                 fontSize: '15px',
                 color: 'var(--text-muted)',
               }}>
-                How We Review
+                How I Review
               </Link>
+              <a
+                href="https://x.com/vamabuilds"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  padding: '10px 24px',
+                  background: 'transparent',
+                  border: '1px solid var(--border)',
+                  borderRadius: '6px',
+                  fontSize: '15px',
+                  color: 'var(--text-muted)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                }}
+              >
+                @vamabuilds ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What I am up to */}
+      <section style={{ padding: '60px 0', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', maxWidth: '900px' }}>
+            {/* What I am up to */}
+            <div>
+              <h2 style={{ fontSize: '12px', fontWeight: '500', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '24px' }}>
+                What I am up to
+              </h2>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                {[
+                  'Building AI-native organizations that operate faster than human consensus',
+                  'Running a full agentic C-suite — CPO, CTO, COO, CLO, CFO — all AI executives coordinating autonomously',
+                  'Curating and publishing the tools, leaders, and resources that actually matter in this space',
+                ].map((item, i) => (
+                  <li key={i} style={{ display: 'flex', gap: '12px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                    <span style={{ color: 'var(--text-muted)', flexShrink: 0, marginTop: '2px' }}>—</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* What I work on */}
+            <div>
+              <h2 style={{ fontSize: '12px', fontWeight: '500', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '24px' }}>
+                What I work on
+              </h2>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                {[
+                  { label: 'The Vama Stack', desc: 'This site. Curated agentic org resources.' },
+                  { label: '@vamabuilds', desc: 'Build-in-public on X. The unfiltered feed.', href: 'https://x.com/vamabuilds' },
+                  { label: 'Agentic org research', desc: 'Exploring on-chain capital formation and programmable incentives.' },
+                ].map((item, i) => (
+                  <li key={i} style={{ display: 'flex', gap: '12px', fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                    <span style={{ color: 'var(--text-muted)', flexShrink: 0, marginTop: '2px' }}>—</span>
+                    <span>
+                      {item.href ? (
+                        <a href={item.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'underline', textDecorationColor: 'var(--border)' }}>
+                          {item.label}
+                        </a>
+                      ) : (
+                        <strong style={{ color: 'var(--text-primary)', fontWeight: '500' }}>{item.label}</strong>
+                      )} — {item.desc}
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
@@ -203,7 +274,7 @@ export default function HomePage() {
             </p>
             <EmailCapture />
             <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '12px' }}>
-              Unsubscribe any time.
+              Or follow <a href="https://x.com/vamabuilds" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', textDecoration: 'underline' }}>@vamabuilds</a> on X. Unsubscribe any time.
             </p>
           </div>
         </div>
