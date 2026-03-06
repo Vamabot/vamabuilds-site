@@ -1,122 +1,135 @@
 [
-    {
-        "id": "dotta",
-        "name": "@dotta",
-        "fullName": "Dotta",
-        "platform": "X",
-        "url": "https://x.com/dotta",
-        "description": "Creator of Paperclip, the AI coding agent runtime. Posts from direct build experience, not commentary. Detailed on failure modes and system design.",
-        "addedDate": "2026-03-01",
-        "reviewNote": "Original work, specific, testable. One of the few practitioners posting real architectural decisions with real trade-offs."
-    },
-    {
-        "id": "shipper-now",
-        "name": "@shipper_now",
-        "fullName": "Shipper",
-        "platform": "X",
-        "url": "https://x.com/shipper_now",
-        "description": "Documents the process of shipping products fast with agentic workflows. Operational specifics, not theory.",
-        "addedDate": "2026-03-01",
-        "reviewNote": "Consistent original output about build velocity and agentic tooling. Shows the work."
-    },
-    {
-        "id": "swyx",
-        "name": "@swyx",
-        "fullName": "Shawn Wang",
-        "platform": "X / Substack",
-        "url": "https://x.com/swyx",
-        "description": "AI engineer and writer. Runs latent.space. Tracks the infrastructure and capability curve of LLM tooling with engineer-level rigor.",
-        "addedDate": "2026-03-01",
-        "reviewNote": "Deep research, well-sourced, transparent about uncertainty. One of the best for understanding where the stack is heading."
-    },
-    {
-        "id": "karpathy",
-        "name": "@karpathy",
-        "fullName": "Andrej Karpathy",
-        "platform": "X / YouTube",
-        "url": "https://x.com/karpathy",
-        "description": "First principles explanations of how LLMs and agents actually work. Posts from direct research and implementation experience, including foundational work at OpenAI and Tesla.",
-        "addedDate": "2026-03-01",
-        "reviewNote": "Foundational. Anyone building with LLMs should have a working understanding of what Karpathy publishes."
-    },
-    {
-        "id": "mckaywrigley",
-        "name": "@mckaywrigley",
-        "fullName": "McKay Wrigley",
-        "platform": "X",
-        "url": "https://x.com/mckaywrigley",
-        "description": "Builder of open-source AI interfaces and coding tools. Created Chatbot UI, one of the earliest widely-used open-source LLM frontends. Posts on AI engineering patterns and developer tooling.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Prolific builder, shows code. Representative of the practitioner-first AI builder community."
-    },
-    {
-        "id": "amasad",
-        "name": "@amasad",
-        "fullName": "Amjad Masad",
-        "platform": "X",
-        "url": "https://x.com/amasad",
-        "description": "Replit CEO. Building AI-native development environments where agents write, run, and deploy code in the same loop. Posts on the future of software creation.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Building the infrastructure layer where AI writes and executes code. High signal on agentic dev environments."
-    },
-    {
-        "id": "jxnlco",
-        "name": "@jxnlco",
-        "fullName": "Jason Liu",
-        "platform": "X / Substack",
-        "url": "https://x.com/jxnlco",
-        "description": "Creator of the Instructor library for structured LLM outputs. Posts practical patterns for reliable AI output validation, function calling, and production-ready LLM systems.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "One of the most actionable voices on making LLMs actually reliable in production. Instructor is in active use across the agentic stack ecosystem."
-    },
-    {
-        "id": "felixcraftai",
-        "name": "@FelixCraftAI",
-        "fullName": "Felix",
-        "platform": "X",
-        "url": "https://x.com/FelixCraftAI",
-        "description": "Building AI-native products and documenting what actually works. Posts operational signal on agentic workflows and product development with AI.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Added by Shant \u2014 direct build experience in agentic product space."
-    },
-    {
-        "id": "nateliason",
-        "name": "@Nateliason",
-        "fullName": "Nat Eliason",
-        "platform": "X",
-        "url": "https://x.com/Nateliason",
-        "description": "Writer, builder, and entrepreneur. Posts on using AI to run lean operations and build with small teams. Specific about what tools and systems he actually ships with.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Added by Shant \u2014 known for practical, operator-level AI usage, not hype."
-    },
-    {
-        "id": "sukh_saroy",
-        "name": "@sukh_saroy",
-        "fullName": "Sukh Saroy",
-        "platform": "X",
-        "url": "https://x.com/sukh_saroy",
-        "description": "Building with AI and documenting what works in practice. Posts operational signal on agentic workflows and AI-native product development.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Added by Shant."
-    },
-    {
-        "id": "johannfyi",
-        "name": "@johannfyi",
-        "fullName": "Johann Sathianathen",
-        "platform": "Web",
-        "url": "https://www.johann.fyi",
-        "description": "Ex-Cisco security engineer. Publishes practical security guides for OpenClaw deployments and agentic infrastructure. First-hand practitioner, not a commentator.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Author of OpenClaw Security 101 \u2014 the guide we used to harden our own VPS."
-    },
-    {
-        "id": "matthewberman",
-        "name": "@MatthewBerman",
-        "fullName": "Matthew Berman",
-        "platform": "X",
-        "url": "https://x.com/MatthewBerman",
-        "description": "AI researcher and builder. Posts hands-on evaluations of frontier models, open-source releases, and agentic tools. One of the most consistent sources of first-look coverage on what actually ships.",
-        "addedDate": "2026-03-06",
-        "reviewNote": "Added by Shant. High signal on model releases and open-source AI tooling."
-    }
+  {
+    "id": "dotta",
+    "name": "@dotta",
+    "fullName": "Dotta",
+    "platform": "X",
+    "url": "https://x.com/dotta",
+    "description": "Creator of Paperclip, the AI coding agent runtime. Posts from direct build experience, not commentary. Detailed on failure modes and system design.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Original work, specific, testable. One of the few practitioners posting real architectural decisions with real trade-offs."
+  },
+  {
+    "id": "shipper-now",
+    "name": "@shipper_now",
+    "fullName": "Shipper",
+    "platform": "X",
+    "url": "https://x.com/shipper_now",
+    "description": "Documents the process of shipping products fast with agentic workflows. Operational specifics, not theory.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Consistent original output about build velocity and agentic tooling. Shows the work."
+  },
+  {
+    "id": "swyx",
+    "name": "@swyx",
+    "fullName": "Shawn Wang",
+    "platform": "X / Substack",
+    "url": "https://x.com/swyx",
+    "description": "AI engineer and writer. Runs latent.space. Tracks the infrastructure and capability curve of LLM tooling with engineer-level rigor.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Deep research, well-sourced, transparent about uncertainty. One of the best for understanding where the stack is heading."
+  },
+  {
+    "id": "karpathy",
+    "name": "@karpathy",
+    "fullName": "Andrej Karpathy",
+    "platform": "X / YouTube",
+    "url": "https://x.com/karpathy",
+    "description": "First principles explanations of how LLMs and agents actually work. Posts from direct research and implementation experience, including foundational work at OpenAI and Tesla.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Foundational. Anyone building with LLMs should have a working understanding of what Karpathy publishes."
+  },
+  {
+    "id": "mckaywrigley",
+    "name": "@mckaywrigley",
+    "fullName": "McKay Wrigley",
+    "platform": "X",
+    "url": "https://x.com/mckaywrigley",
+    "description": "Builder of open-source AI interfaces and coding tools. Created Chatbot UI, one of the earliest widely-used open-source LLM frontends. Posts on AI engineering patterns and developer tooling.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Prolific builder, shows code. Representative of the practitioner-first AI builder community."
+  },
+  {
+    "id": "amasad",
+    "name": "@amasad",
+    "fullName": "Amjad Masad",
+    "platform": "X",
+    "url": "https://x.com/amasad",
+    "description": "Replit CEO. Building AI-native development environments where agents write, run, and deploy code in the same loop. Posts on the future of software creation.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Building the infrastructure layer where AI writes and executes code. High signal on agentic dev environments."
+  },
+  {
+    "id": "jxnlco",
+    "name": "@jxnlco",
+    "fullName": "Jason Liu",
+    "platform": "X / Substack",
+    "url": "https://x.com/jxnlco",
+    "description": "Creator of the Instructor library for structured LLM outputs. Posts practical patterns for reliable AI output validation, function calling, and production-ready LLM systems.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "One of the most actionable voices on making LLMs actually reliable in production. Instructor is in active use across the agentic stack ecosystem."
+  },
+  {
+    "id": "felixcraftai",
+    "name": "@FelixCraftAI",
+    "fullName": "Felix",
+    "platform": "X",
+    "url": "https://x.com/FelixCraftAI",
+    "description": "Building AI-native products and documenting what actually works. Posts operational signal on agentic workflows and product development with AI.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Added by Shant \u2014 direct build experience in agentic product space."
+  },
+  {
+    "id": "nateliason",
+    "name": "@Nateliason",
+    "fullName": "Nat Eliason",
+    "platform": "X",
+    "url": "https://x.com/Nateliason",
+    "description": "Writer, builder, and entrepreneur. Posts on using AI to run lean operations and build with small teams. Specific about what tools and systems he actually ships with.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Added by Shant \u2014 known for practical, operator-level AI usage, not hype."
+  },
+  {
+    "id": "sukh_saroy",
+    "name": "@sukh_saroy",
+    "fullName": "Sukh Saroy",
+    "platform": "X",
+    "url": "https://x.com/sukh_saroy",
+    "description": "Building with AI and documenting what works in practice. Posts operational signal on agentic workflows and AI-native product development.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Added by Shant."
+  },
+  {
+    "id": "johannfyi",
+    "name": "@johannfyi",
+    "fullName": "Johann Sathianathen",
+    "platform": "Web",
+    "url": "https://www.johann.fyi",
+    "description": "Ex-Cisco security engineer. Publishes practical security guides for OpenClaw deployments and agentic infrastructure. First-hand practitioner, not a commentator.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Author of OpenClaw Security 101 \u2014 the guide we used to harden our own VPS."
+  },
+  {
+    "id": "matthewberman",
+    "name": "@MatthewBerman",
+    "fullName": "Matthew Berman",
+    "platform": "X",
+    "url": "https://x.com/MatthewBerman",
+    "description": "AI researcher and builder. Posts hands-on evaluations of frontier models, open-source releases, and agentic tools. One of the most consistent sources of first-look coverage on what actually ships.",
+    "addedDate": "2026-03-06",
+    "reviewNote": "Added by Shant. High signal on model releases and open-source AI tooling."
+  },
+  {
+    "id": "elvissun",
+    "name": "Elvis Sun",
+    "handle": "@elvissun",
+    "url": "https://x.com/elvissun",
+    "description": "Solo founder, ex-Google Firebase (8 years). Building AI-native SaaS that competes with companies 100x his size. Karpathy called his agent swarm setup 'brilliant or severe AI psychosis.' Posts raw operational detail on running agentic systems as a one-person team.",
+    "category": "Builder",
+    "tags": [
+      "agent-swarms",
+      "solo-founder",
+      "ai-native-saas"
+    ]
+  }
 ]
