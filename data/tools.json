@@ -115,5 +115,19 @@
         ],
         "addedDate": "2026-03-06",
         "reviewNote": "OpenClaw ecosystem plugin. Relevant for agentic orgs running multi-project dev pipelines."
+    },
+    {
+        "id": "grok",
+        "name": "Grok",
+        "description": "xAI's frontier model. Strong reasoning and real-time web access. Used in the vamabuilds stack for tasks requiring up-to-date information and fast inference.",
+        "url": "https://x.ai",
+        "tags": [
+            "Paid"
+        ],
+        "categories": [
+            "Brains"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "xAI model. Part of the vamabuilds LLM stack alongside Claude."
     }
 ]
