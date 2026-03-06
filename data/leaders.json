@@ -88,5 +88,15 @@
         "description": "Writer, builder, and entrepreneur. Posts on using AI to run lean operations and build with small teams. Specific about what tools and systems he actually ships with.",
         "addedDate": "2026-03-06",
         "reviewNote": "Added by Shant \u2014 known for practical, operator-level AI usage, not hype."
+    },
+    {
+        "id": "sukh_saroy",
+        "name": "@sukh_saroy",
+        "fullName": "Sukh Saroy",
+        "platform": "X",
+        "url": "https://x.com/sukh_saroy",
+        "description": "Building with AI and documenting what works in practice. Posts operational signal on agentic workflows and AI-native product development.",
+        "addedDate": "2026-03-06",
+        "reviewNote": "Added by Shant."
     }
 ]
