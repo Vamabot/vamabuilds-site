@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Vama Stack',
     description: 'The agentic org stack, curated.',
-    url: 'https://vamabuilds.com',
+    url: 'https://thevamastack.co',
   },
 }
 
