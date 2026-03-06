@@ -17,12 +17,10 @@ const platformColors: Record<string, string> = {
 export default function LeadersPage() {
   return (
     <div className="container" style={{ paddingTop: '60px', paddingBottom: '80px' }}>
-      <div style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
-        <h1 style={{ fontSize: 'clamp(28px, 5vw, 44px)', fontWeight: '700', letterSpacing: '-0.03em', lineHeight: '1.15', marginBottom: '16px' }}>
-          Leaders
-        </h1>
-        <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '600px', lineHeight: '1.7' }}>
-          Practitioners building agentic organizations and showing the work. Not commentators.
+      <div className="page-hero" style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
+        <h1>Leaders</h1>
+        <p style={{ marginTop: '16px' }}>
+          People I actually follow to stay sharp. Builders sharing real operational data from the agentic frontier — not commentators, not hype accounts.
           Every account here posts from direct operational experience, has a documented body of
           work, and passes the &quot;specific and testable&quot; standard.
         </p>
