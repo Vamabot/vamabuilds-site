@@ -108,5 +108,15 @@
         "description": "Ex-Cisco security engineer. Publishes practical security guides for OpenClaw deployments and agentic infrastructure. First-hand practitioner, not a commentator.",
         "addedDate": "2026-03-06",
         "reviewNote": "Author of OpenClaw Security 101 \u2014 the guide we used to harden our own VPS."
+    },
+    {
+        "id": "matthewberman",
+        "name": "@MatthewBerman",
+        "fullName": "Matthew Berman",
+        "platform": "X",
+        "url": "https://x.com/MatthewBerman",
+        "description": "AI researcher and builder. Posts hands-on evaluations of frontier models, open-source releases, and agentic tools. One of the most consistent sources of first-look coverage on what actually ships.",
+        "addedDate": "2026-03-06",
+        "reviewNote": "Added by Shant. High signal on model releases and open-source AI tooling."
     }
 ]
