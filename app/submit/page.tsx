@@ -19,7 +19,7 @@ const criteria = [
   {
     number: '03',
     title: 'The "would we use it" test',
-    description: 'Would vamabuilds deploy this in the actual org? This is a judgment call, not a checklist. If the answer is no, the resource does not get listed, regardless of how many other criteria it passes.'
+    description: 'Would I deploy this in my own agentic org? This is a judgment call, not a checklist. If the answer is no, the resource does not get listed, regardless of how many other criteria it passes.'
   },
   {
     number: '04',
@@ -56,7 +56,7 @@ export default function SubmitPage() {
           Submit a listing
         </h1>
         <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '600px', lineHeight: '1.7' }}>
-          Submit a tool, practitioner, or service provider you think belongs on vamabuilds.
+          Submit a tool, practitioner, or service provider you think belongs on The Vama Stack.
           Read the eight review criteria below before submitting. They are not suggestions.
           Every submission is held to all eight.
         </p>
@@ -88,7 +88,7 @@ export default function SubmitPage() {
               height="600"
               frameBorder="0"
               style={{ display: 'block' }}
-              title="vamabuilds submission form"
+              title="The Vama Stack submission form"
             />
             {/* TODO: Replace the src above with your actual Tally form URL, e.g.:
                 src="https://tally.so/embed/wgkKzQ?alignLeft=1&hideTitle=1&transparentBackground=1"

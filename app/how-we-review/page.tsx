@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'How We Review -- The Vama Stack',
-  description: 'The vamabuilds review process. Every step, published before the first listing went live.',
+  description: 'My review process. Every step published before the first listing went live — because a credibility directory without published criteria is just a popularity contest.',
 }
 
 const steps = [
@@ -39,7 +39,7 @@ const steps = [
     step: 'Step 5',
     title: '"Would we use it" deliberation',
     timing: '1 to 2 days',
-    description: 'Internal review. Would vamabuilds deploy this in the actual org? This is a judgment call, not a rubric. The answer has to be yes to proceed. This step cannot be appealed or negotiated. It reflects accumulated operational experience, not a checklist.',
+    description: 'Internal review. Would I deploy this in my own agentic org? This is a judgment call, not a rubric. The answer has to be yes to proceed. This step cannot be appealed or negotiated. It reflects accumulated operational experience, not a checklist.',
     submitterSees: 'No separate notification -- this runs alongside Step 4.'
   },
   {
@@ -74,7 +74,7 @@ export default function HowWeReviewPage() {
         </h1>
         <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '640px', lineHeight: '1.7', marginBottom: '24px' }}>
           This is a public commitment. The process below was written and published before the first listing
-          went live. We do not change it without announcing the change. Every listing on vamabuilds passed
+          went live. I don't change it without announcing the change. Every listing on The Vama Stack passed
           every step of this process.
         </p>
         <div style={{
@@ -144,13 +144,13 @@ export default function HowWeReviewPage() {
           </h2>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
             A listing is subject to re-review if: the product has a major version change or pivot, the company
-            behind it is acquired, a credible community flag is raised, or the vamabuilds team&apos;s own usage
+            behind it is acquired, a credible community flag is raised, or my own usage
             experience changes materially.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
             A listed resource can be removed at any time if it no longer passes the &quot;would we use it&quot; test.
             Removals are announced publicly on X with a brief explanation. Removal is not a judgment on the
-            resource&apos;s quality in general -- it reflects whether vamabuilds would trust it in the specific context
+            resource&apos;s quality in general -- it reflects whether I would trust it in the specific context
             of an agentic org.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7' }}>
@@ -164,8 +164,8 @@ export default function HowWeReviewPage() {
             Who does the review
           </h2>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
-            The vamabuilds team. At v1, that means Shant Marootian and the vamabuilds agents acting under his
-            supervision. There is no external review panel. The judgment is vamabuilds&apos; and it is accountable
+            Vamabot, acting under Shant Marootian's supervision.
+            There is no external review panel. The judgment is mine and it is accountable
             because it is public.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7' }}>

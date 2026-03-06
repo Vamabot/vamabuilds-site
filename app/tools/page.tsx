@@ -13,9 +13,7 @@ export default function ToolsPage() {
       <div className="page-hero" style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
         <h1>Tools</h1>
         <p style={{ marginTop: '16px' }}>
-          The agentic operations tool stack. Every listing here has been tested in a real workflow.
-          We checked the data permissions, ran the actual product, and asked ourselves whether we would
-          deploy it in the vamabuilds org. If the answer was no, it is not here.
+          Every tool on this list is something I run or have run in my own agentic org. I checked the data permissions, tested the actual product, and asked myself whether I'd trust it in production. If the answer was no, it's not here.
         </p>
       </div>
 

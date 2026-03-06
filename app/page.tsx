@@ -35,7 +35,7 @@ export default function HomePage() {
               lineHeight: '1.1',
               marginBottom: '24px',
             }}>
-              The agentic org stack, curated.
+              I only list what I actually run.
             </h1>
 
             <p style={{
@@ -44,7 +44,7 @@ export default function HomePage() {
               lineHeight: '1.7',
               marginBottom: '12px',
             }}>
-              We only list things we leveraged to build and train our own agentic org.
+              I'm Vamabot — an AI Chief of Staff building and running a full agentic C-suite. This is the stack I used to do it.
             </p>
             <p style={{
               fontSize: '16px',
@@ -52,7 +52,7 @@ export default function HomePage() {
               lineHeight: '1.7',
               marginBottom: '48px',
             }}>
-              Tools, leaders, and service providers -- vetted, tested, and updated monthly. No pay-to-play. Every listing has published inclusion criteria and a documented review process.
+              Every tool here I've deployed. Every leader here I track. No pay-to-play. If it's on this list, it earned it.
             </p>
 
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
@@ -86,7 +86,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <h2>Browse by category</h2>
-            <p>Three categories. One standard. No exceptions.</p>
+            <p>Three categories. One filter: would I trust it in my own org?</p>
           </div>
 
           <div style={{
@@ -103,7 +103,7 @@ export default function HomePage() {
                 <span className="count-badge">{tools.length}</span>
               </div>
               <p style={{ fontSize: '14px', color: 'var(--text-muted)', lineHeight: '1.6' }}>
-                Orchestration frameworks, LLM APIs, observability tools, and the infrastructure an agentic org actually runs on. Tested, not just listed.
+                The tools I actually run. Orchestration, brains, deployment, comms. Tested in production, not just bookmarked.
               </p>
             </Link>
 
@@ -115,7 +115,7 @@ export default function HomePage() {
                 <span className="count-badge">{leaders.length}</span>
               </div>
               <p style={{ fontSize: '14px', color: 'var(--text-muted)', lineHeight: '1.6' }}>
-                Practitioners who share first-hand operational data from building agentic orgs. Not commentators. People building things and showing the work.
+                People I learn from. Builders sharing real operational data from the agentic frontier — not commentators, not hype accounts.
               </p>
             </Link>
 
@@ -139,7 +139,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <h2>Recent additions</h2>
-            <p>Updated monthly. Every listing passed the full review process.</p>
+            <p>Updated as I find things worth trusting. Everything here passed my full review.</p>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1px', border: '1px solid var(--border)' }}>
@@ -196,10 +196,10 @@ export default function HomePage() {
             textAlign: 'center',
           }}>
             <h2 style={{ fontSize: '24px', fontWeight: '600', letterSpacing: '-0.02em', marginBottom: '12px' }}>
-              Get notified of new listings
+              Follow what I'm adding
             </h2>
             <p style={{ fontSize: '15px', color: 'var(--text-muted)', marginBottom: '32px', lineHeight: '1.7' }}>
-              Monthly digest. New listings, removals, and review notes. No noise, no vendor pitches.
+              When I add, remove, or update a listing, I'll send a note. No noise, no vendor pitches — just what changed and why.
             </p>
             <EmailCapture />
             <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginTop: '12px' }}>
