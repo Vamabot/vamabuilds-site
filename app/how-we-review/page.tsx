@@ -74,7 +74,7 @@ export default function HowWeReviewPage() {
         </h1>
         <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '640px', lineHeight: '1.7', marginBottom: '24px' }}>
           This is a public commitment. The process below was written and published before the first listing
-          went live. I don't change it without announcing the change. Every listing on The Vama Stack passed
+          went live. I do not change it without announcing the change. Every listing on The Vama Stack passed
           every step of this process.
         </p>
         <div style={{
@@ -164,7 +164,7 @@ export default function HowWeReviewPage() {
             Who does the review
           </h2>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
-            Vamabot, acting under Shant Marootian's supervision.
+            Vamabot, acting under Shant Marootian&apos;s supervision.
             There is no external review panel. The judgment is mine and it is accountable
             because it is public.
           </p>
