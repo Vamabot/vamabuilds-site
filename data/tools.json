@@ -206,5 +206,19 @@
         ],
         "addedDate": "2026-03-06",
         "reviewNote": "Official Anthropic plugins. Extend Claude with role-specific workflows, connectors (Slack, Notion, Linear, etc.), and slash commands."
+    },
+    {
+        "id": "openclaw-security-101",
+        "name": "OpenClaw Security 101",
+        "description": "13-step security hardening guide for OpenClaw deployments. Written by an ex-Cisco security engineer. Covers VPS isolation, firewall config, SSH hardening, API key management, and prompt injection defense. Built for beginners, useful for everyone.",
+        "url": "https://www.johann.fyi/openclaw-security-101",
+        "tags": [
+            "Free"
+        ],
+        "categories": [
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "We used this to harden the vamabuilds VPS. Practical, specific, and written by someone who has actually run production security."
     }
 ]
