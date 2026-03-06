@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dotta",
+    "name": "@dotta",
+    "fullName": "Dotta",
+    "platform": "X",
+    "url": "https://x.com/dotta",
+    "description": "Creator of Paperclip, the AI coding agent runtime. Posts from direct build experience, not commentary. Detailed on failure modes and system design.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Original work, specific, testable. One of the few practitioners posting real architectural decisions with real trade-offs."
+  },
+  {
+    "id": "shipper-now",
+    "name": "@shipper_now",
+    "fullName": "Shipper",
+    "platform": "X",
+    "url": "https://x.com/shipper_now",
+    "description": "Documents the process of shipping products fast with agentic workflows. Operational specifics, not theory.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Consistent original output about build velocity and agentic tooling. Shows the work."
+  },
+  {
+    "id": "swyx",
+    "name": "@swyx",
+    "fullName": "Shawn Wang",
+    "platform": "X / Substack",
+    "url": "https://x.com/swyx",
+    "description": "AI engineer and writer. Runs latent.space. Tracks the infrastructure and capability curve of LLM tooling with engineer-level rigor.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Deep research, well-sourced, transparent about uncertainty. One of the best for understanding where the stack is heading."
+  },
+  {
+    "id": "karpathy",
+    "name": "@karpathy",
+    "fullName": "Andrej Karpathy",
+    "platform": "X / YouTube",
+    "url": "https://x.com/karpathy",
+    "description": "First principles explanations of how LLMs and agents actually work. Posts from direct research and implementation experience.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Foundational. Anyone building with LLMs should have a working understanding of what Karpathy publishes."
+  }
+]

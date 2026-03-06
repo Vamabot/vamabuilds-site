@@ -1,0 +1,24 @@
+[
+  {
+    "id": "vamabuilds-consulting",
+    "name": "vamabuilds",
+    "specialty": "Agentic org design and implementation",
+    "description": "The org behind this directory. Designs and deploys agentic C-suite structures for early-stage companies.",
+    "url": "https://vamabuilds.com",
+    "affiliationTag": "Submitted by: vamabuilds (self)",
+    "trackRecord": "Running an agentic org in production since 2026. Tools and process documented publicly.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Founding listing. Held to the same standard as every other provider on this list."
+  },
+  {
+    "id": "paperclip-ai",
+    "name": "Paperclip AI",
+    "specialty": "AI coding agent runtime and development tooling",
+    "description": "Builds the Paperclip coding agent runtime. Implementation partner for orgs integrating agentic development into their engineering workflows.",
+    "url": "https://paperclip.ai",
+    "affiliationTag": null,
+    "trackRecord": "Paperclip runtime deployed in multiple production codebases. Publicly documented architecture.",
+    "addedDate": "2026-03-01",
+    "reviewNote": "Verifiable track record through open build-in-public documentation. Tested the runtime directly."
+  }
+]

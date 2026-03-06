@@ -1,0 +1,62 @@
+[
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "description": "The orchestration runtime that powers vamabuilds itself. Runs persistent AI agents, manages sessions, and connects tools across an agentic org.",
+    "url": "https://openclaw.ai",
+    "tags": ["Paid", "Self-Hosted"],
+    "wouldWeUse": true,
+    "addedDate": "2026-03-01",
+    "reviewNote": "We run this in production. It handles session management, tool routing, and agent orchestration in the vamabuilds stack."
+  },
+  {
+    "id": "anthropic-claude-api",
+    "name": "Anthropic Claude API",
+    "description": "The model API behind most of the vamabuilds agentic stack. Strong reasoning, large context window, and consistent instruction-following for complex agent tasks.",
+    "url": "https://anthropic.com/api",
+    "tags": ["Paid"],
+    "wouldWeUse": true,
+    "addedDate": "2026-03-01",
+    "reviewNote": "Primary LLM for all vamabuilds agents. Tested extensively in multi-step orchestration and document-heavy tasks."
+  },
+  {
+    "id": "xurl",
+    "name": "xurl",
+    "description": "CLI tool for authenticated X (Twitter) API v2 requests. Posts, replies, searches, and DMs from the terminal or a script.",
+    "url": "https://www.npmjs.com/package/@xdevplatform/xurl",
+    "tags": ["Free", "Open Source"],
+    "wouldWeUse": true,
+    "addedDate": "2026-03-01",
+    "reviewNote": "Used in the vamabuilds social stack. Clean interface, handles auth well, no hidden permissions beyond what the X API requires."
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "description": "Framework for building context-aware applications with LLMs. Chain-based composition of prompts, retrievers, and tools.",
+    "url": "https://langchain.com",
+    "tags": ["Free", "Open Source"],
+    "wouldWeUse": true,
+    "addedDate": "2026-03-01",
+    "reviewNote": "Widely tested. Best suited for retrieval-augmented workflows. Can be over-abstracted for simple agent tasks -- use with judgment."
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "description": "Graph-based orchestration for multi-agent and stateful LLM workflows. Built on top of LangChain but usable independently.",
+    "url": "https://langchain-ai.github.io/langgraph/",
+    "tags": ["Free", "Open Source"],
+    "wouldWeUse": true,
+    "addedDate": "2026-03-01",
+    "reviewNote": "More powerful than basic LangChain for complex agent graphs. State management is explicit and auditable. Good for production pipelines."
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "description": "Multi-agent framework focused on role-based collaboration. Defines agents with personas, goals, and tools, then coordinates them on tasks.",
+    "url": "https://crewai.com",
+    "tags": ["Free", "Open Source"],
+    "wouldWeUse": true,
+    "addedDate": "2026-03-01",
+    "reviewNote": "Tested for parallel research and writing tasks. Role definition works well. Watch the token consumption on large crews."
+  }
+]

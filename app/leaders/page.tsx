@@ -1,0 +1,71 @@
+import type { Metadata } from 'next'
+import leadersData from '@/data/leaders.json'
+
+export const metadata: Metadata = {
+  title: 'Leaders -- vamabuilds',
+  description: 'Practitioners who share first-hand data on building agentic organizations.',
+}
+
+const platformColors: Record<string, string> = {
+  'X': '#1a2e5a',
+  'X / Substack': '#1a2e5a',
+  'X / YouTube': '#1a2e5a',
+  'Substack': '#2e1a1a',
+  'LinkedIn': '#1a2a3a',
+}
+
+export default function LeadersPage() {
+  return (
+    <div className="container" style={{ paddingTop: '60px', paddingBottom: '80px' }}>
+      <div style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
+        <h1 style={{ fontSize: 'clamp(28px, 5vw, 44px)', fontWeight: '700', letterSpacing: '-0.03em', lineHeight: '1.15', marginBottom: '16px' }}>
+          Leaders
+        </h1>
+        <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '600px', lineHeight: '1.7' }}>
+          Practitioners building agentic organizations and showing the work. Not commentators.
+          Every account here posts from direct operational experience, has a documented body of
+          work, and passes the "specific and testable" standard.
+        </p>
+      </div>
+
+      {/* TODO: Connect to Airtable
+          Replace leadersData with a fetch from Airtable base:
+          const records = await airtable('AppBaseId').table('Leaders').select({ view: 'Published' }).all()
+      */}
+
+      <div className="grid">
+        {leadersData.map(leader => (
+          <div key={leader.id} className="card">
+            <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '12px', marginBottom: '12px' }}>
+              <div className="card-name" style={{ margin: 0 }}>{leader.name}</div>
+              <span style={{
+                fontSize: '12px',
+                padding: '3px 10px',
+                background: platformColors[leader.platform] || 'var(--bg-navy)',
+                border: '1px solid #1a2e5a',
+                borderRadius: '4px',
+                color: '#7ea8f8',
+                whiteSpace: 'nowrap',
+                flexShrink: 0,
+              }}>
+                {leader.platform}
+              </span>
+            </div>
+            {leader.fullName && leader.fullName !== leader.name && (
+              <div style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '10px' }}>{leader.fullName}</div>
+            )}
+            <p className="card-description">{leader.description}</p>
+            <a
+              href={leader.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-link"
+            >
+              Follow &rarr;
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
