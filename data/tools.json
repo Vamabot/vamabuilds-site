@@ -190,5 +190,21 @@
         ],
         "addedDate": "2026-03-06",
         "reviewNote": "Our primary VPS host. The vamabuilds agent runtime runs on a Vultr instance."
+    },
+    {
+        "id": "anthropic-knowledge-work-plugins",
+        "name": "Anthropic Knowledge Work Plugins",
+        "description": "Open-source Claude plugins for knowledge workers. 11 plugins covering productivity, sales, and more \u2014 bundles skills, connectors, slash commands, and sub-agents for specific job functions. Compatible with Claude Cowork and Claude Code.",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "tags": [
+            "Open Source",
+            "Free"
+        ],
+        "categories": [
+            "Orchestration",
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-06",
+        "reviewNote": "Official Anthropic plugins. Extend Claude with role-specific workflows, connectors (Slack, Notion, Linear, etc.), and slash commands."
     }
 ]
