@@ -18,8 +18,8 @@ export default function Nav() {
       <div className="container">
         <div className="nav-inner">
           <Link href="/" className="nav-logo">
-            <Image src="/logo.png" alt="vamabuilds" width={32} height={32} />
-            vamabuilds
+            <Image src="/logo.png" alt="The Vama Stack" width={32} height={32} />
+            The Vama Stack
           </Link>
           <ul className="nav-links">
             {links.map((link) => (

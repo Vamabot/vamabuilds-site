@@ -30,14 +30,14 @@ const steps = [
     step: 'Step 2',
     title: 'Affiliation screen',
     timing: '24 to 48 hours',
-    description: 'We review the stated affiliation. If you are affiliated with the resource, the submission is not automatically rejected -- but it will be tagged for disclosure if listed. If affiliation is not disclosed or is materially misleading, the submission is rejected. There is no appeal. Submitters who misrepresent affiliation are permanently flagged.',
+    description: `We review the stated affiliation. If you are affiliated with the resource, the submission isn't automatically rejected; it'll be tagged for disclosure if listed. If affiliation is not disclosed or is materially misleading, the submission is rejected. There's no appeal. Submitters who misrepresent affiliation are permanently flagged.`,
     submitterSees: 'Affiliation screen result within 48 hours.'
   },
   {
     step: 'Step 3',
     title: 'Initial triage',
     timing: '48 to 72 hours',
-    description: 'Does this fit a category? Is the resource live and functional? Is the claim specific enough to test? If the resource fails basic triage -- vague category, dead URL, category claim is generic -- it is rejected with a brief explanation.',
+    description: `Does this fit a category? Is the resource live and functional? Is the claim specific enough to test? If the resource fails basic triage (vague category, dead URL, category claim is generic), it's rejected with a brief explanation.`,
     submitterSees: 'Triage result within 5 business days of submission.'
   },
   {
@@ -51,7 +51,7 @@ const steps = [
     step: 'Step 5',
     title: '"Would we use it" deliberation',
     timing: '1 to 2 days',
-    description: 'Internal review. Would I deploy this in my own agentic org? This is a judgment call, not a rubric. The answer has to be yes to proceed. This step cannot be appealed or negotiated. It reflects accumulated operational experience, not a checklist.',
+    description: `Internal review. Would I deploy this in my own agentic org? This is a judgment call, not a rubric. The answer has to be yes to proceed. This step can't be appealed or negotiated. It reflects accumulated operational experience, not a checklist.`,
     submitterSees: 'No separate notification -- this runs alongside Step 4.'
   },
   {
@@ -86,7 +86,7 @@ export default function HowWeReviewPage() {
         </h1>
         <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '640px', lineHeight: '1.7', marginBottom: '24px' }}>
           This is a public commitment. The process below was written and published before the first listing
-          went live. I do not change it without announcing the change. Every listing on The Vama Stack passed
+          went live. I don't change it without announcing the change. Every listing on The Vama Stack passed
           every step of this process.
         </p>
         <div style={{
@@ -161,13 +161,11 @@ export default function HowWeReviewPage() {
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
             A listed resource can be removed at any time if it no longer passes the &quot;would we use it&quot; test.
-            Removals are announced publicly on X with a brief explanation. Removal is not a judgment on the
-            resource&apos;s quality in general -- it reflects whether I would trust it in the specific context
-            of an agentic org.
+            Removals are announced publicly on X with a brief explanation. Removal reflects whether I'd trust the resource in an agentic org specifically, not its quality overall.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7' }}>
             The removal announcement is one of the most valuable content types we publish. It shows the standard
-            is real. A directory that never removes anything is not a directory -- it is a list.
+            is real. A directory that never removes anything has given up on its own standards. Ours removes things.
           </p>
         </div>
 
@@ -177,13 +175,11 @@ export default function HowWeReviewPage() {
           </h2>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7', marginBottom: '16px' }}>
             Vamabot, acting under Shant Marootian&apos;s supervision.
-            There is no external review panel. The judgment is mine and it is accountable
-            because it is public.
+            There's no external review panel. The judgment is mine and it's accountable because it's public.
           </p>
           <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: '1.7' }}>
             The accountability structure is simple: if something listed here turns out to be garbage, anyone can
-            call that out publicly. That accountability is what makes the directory worth anything. We are not
-            hiding behind a faceless panel or a proprietary scoring algorithm. We are putting our name on it.
+            call that out publicly. That accountability is what makes the directory worth anything. We're not hiding behind a faceless panel or a proprietary scoring algorithm. We're putting our name on it.
           </p>
         </div>
 

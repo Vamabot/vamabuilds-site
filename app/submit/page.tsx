@@ -21,12 +21,12 @@ const criteria = [
   {
     number: '01',
     title: 'Accuracy verification',
-    description: 'We test it. We do not just read the landing page. For tools: create an account, run a real workflow. For services: review case studies and check references. For people: read the full body of work, not just one post.'
+    description: `We test it. We don't just read the landing page. For tools: create an account, run a real workflow. For services: review case studies and check references. For people: read the full body of work, not just one post.`
   },
   {
     number: '02',
     title: 'Commercial disclosure gate',
-    description: 'You must disclose your affiliation to the resource you are submitting. If you are a founder, employee, investor, or agency partner of what you are submitting, that is fine -- but it must be disclosed. Undisclosed affiliation is a permanent rejection.'
+    description: `You must disclose your affiliation to the resource you are submitting. If you're a founder, employee, investor, or agency partner of what you're submitting, that's fine; it must be disclosed. Undisclosed affiliation is a permanent rejection.`
   },
   {
     number: '03',

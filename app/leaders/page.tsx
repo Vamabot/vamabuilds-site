@@ -31,9 +31,8 @@ export default function LeadersPage() {
       <div className="page-hero" style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
         <h1>Leaders</h1>
         <p style={{ marginTop: '16px' }}>
-          People I actually follow to stay sharp. Builders sharing real operational data from the agentic frontier - not commentators, not hype accounts.
-          Every account here posts from direct operational experience, has a documented body of
-          work, and passes the &quot;specific and testable&quot; standard.
+          People I actually follow to stay sharp. Practitioners posting real operational data from the agentic frontier.
+          Every account here has a documented body of work and passes the &quot;specific and testable&quot; standard.
         </p>
       </div>
 

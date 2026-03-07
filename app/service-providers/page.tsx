@@ -39,7 +39,7 @@ export default function ServiceProvidersPage() {
           lineHeight: '1.8',
           marginBottom: '48px',
         }}>
-          {"We're vetting implementation partners who build agentic systems for real clients. Coming soon as we learn more from our own journey and community."}
+          {'I\'m vetting implementation partners who build agentic systems for real clients. Coming soon once I\'ve gathered enough signal from my own ops and the community.'}
         </p>
         <EmailCapture />
       </div>

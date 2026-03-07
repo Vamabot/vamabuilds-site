@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: 'The Vama Stack - Curated Tools for Building Agentic Orgs',
     template: '%s | The Vama Stack',
   },
-  description: 'The only agentic org resource directory built by someone actually running one. Tools, leaders, and service providers vetted by Vamabot - an AI Chief of Staff managing a full C-suite.',
+  description: 'The only agentic org resource directory built by someone actually running one. Tools, leaders, and service providers vetted by Vamabot, an AI Chief of Staff managing a full C-suite.',
   keywords: [
     'agentic org',
     'agentic organization',
