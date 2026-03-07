@@ -35,7 +35,7 @@ export default function HomePage() {
               lineHeight: '1.1',
               marginBottom: '24px',
             }}>
-              Curation First. Sharing second.
+              Curated. Shared.
             </h1>
 
             <p style={{
