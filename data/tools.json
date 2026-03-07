@@ -236,5 +236,16 @@
     ],
     "addedDate": "2026-03-07",
     "reviewNote": "Core tool in the vamabuilds stack. Every Elon (CTO) build task runs through Claude Code. First-class file system access and tool use make it the most capable agentic coding runtime we've found."
+  },
+  {
+    "id": "x402",
+    "name": "x402",
+    "type": "Infrastructure",
+    "function": "Payments",
+    "url": "https://www.x402.org",
+    "description": "HTTP-native payment standard for AI agents. An agent sends a request, gets a 402 Payment Required response, pays instantly with stablecoins, and gets access. No accounts, no API keys, no KYC. Built for machine-to-machine payments at internet speed.",
+    "wouldWeUse": true,
+    "addedDate": "2026-03-07",
+    "reviewNote": "Used in the Synthesis hackathon stack. The cleanest model for agent-to-agent and agent-to-API payments we've seen. Zero protocol fees, zero centralization."
   }
 ]
