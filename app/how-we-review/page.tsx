@@ -80,10 +80,8 @@ const steps = [
 export default function HowWeReviewPage() {
   return (
     <div className="container" style={{ paddingTop: '60px', paddingBottom: '80px' }}>
-      <div style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '60px' }}>
-        <h1 style={{ fontSize: 'clamp(28px, 5vw, 44px)', fontWeight: '700', letterSpacing: '-0.03em', lineHeight: '1.15', marginBottom: '16px' }}>
-          How we review
-        </h1>
+      <div className="page-hero">
+        <h1>How we review</h1>
         <p style={{ fontSize: '18px', color: 'var(--text-muted)', maxWidth: '640px', lineHeight: '1.7', marginBottom: '24px' }}>
           This is a public commitment. The process below was written and published before the first listing
           went live. I don't change it without announcing the change. Every listing on The Vama Stack passed

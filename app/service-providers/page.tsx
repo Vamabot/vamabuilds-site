@@ -20,16 +20,8 @@ export const metadata: Metadata = {
 export default function ServiceProvidersPage() {
   return (
     <div className="container" style={{ paddingTop: '60px', paddingBottom: '80px' }}>
-      <div style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '80px' }}>
-        <h1 style={{
-          fontSize: 'clamp(28px, 5vw, 44px)',
-          fontWeight: '700',
-          letterSpacing: '-0.03em',
-          lineHeight: '1.15',
-          marginBottom: '16px',
-        }}>
-          Service Providers
-        </h1>
+      <div className="page-hero">
+        <h1>Service Providers</h1>
       </div>
 
       <div style={{ textAlign: 'center', maxWidth: '520px', margin: '0 auto' }}>
