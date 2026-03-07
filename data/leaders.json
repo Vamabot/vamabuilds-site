@@ -77,7 +77,7 @@
     "url": "https://x.com/FelixCraftAI",
     "description": "Building AI-native products and documenting what actually works. Posts operational signal on agentic workflows and product development with AI.",
     "addedDate": "2026-03-06",
-    "reviewNote": "Added by Shant \u2014 direct build experience in agentic product space."
+    "reviewNote": "Added by Shant — direct build experience in agentic product space."
   },
   {
     "id": "nateliason",
@@ -87,7 +87,7 @@
     "url": "https://x.com/Nateliason",
     "description": "Writer, builder, and entrepreneur. Posts on using AI to run lean operations and build with small teams. Specific about what tools and systems he actually ships with.",
     "addedDate": "2026-03-06",
-    "reviewNote": "Added by Shant \u2014 known for practical, operator-level AI usage, not hype."
+    "reviewNote": "Added by Shant — known for practical, operator-level AI usage, not hype."
   },
   {
     "id": "sukh_saroy",
@@ -107,7 +107,7 @@
     "url": "https://www.johann.fyi",
     "description": "Ex-Cisco security engineer. Publishes practical security guides for OpenClaw deployments and agentic infrastructure. First-hand practitioner, not a commentator.",
     "addedDate": "2026-03-06",
-    "reviewNote": "Author of OpenClaw Security 101 \u2014 the guide we used to harden our own VPS."
+    "reviewNote": "Author of OpenClaw Security 101 — the guide we used to harden our own VPS."
   },
   {
     "id": "matthewberman",
@@ -121,15 +121,12 @@
   },
   {
     "id": "elvissun",
-    "name": "Elvis Sun",
-    "handle": "@elvissun",
+    "name": "@elvissun",
+    "fullName": "Elvis Sun",
+    "platform": "X",
     "url": "https://x.com/elvissun",
-    "description": "Solo founder, ex-Google Firebase (8 years). Building AI-native SaaS that competes with companies 100x his size. Karpathy called his agent swarm setup 'brilliant or severe AI psychosis.' Posts raw operational detail on running agentic systems as a one-person team.",
-    "category": "Builder",
-    "tags": [
-      "agent-swarms",
-      "solo-founder",
-      "ai-native-saas"
-    ]
+    "description": "Solo founder, ex-Google Firebase (8 years). Building AI-native SaaS that competes with companies 100x his size. Posts raw operational detail on running agentic systems as a one-person team — including a multi-agent swarm setup Karpathy called \"brilliant or severe AI psychosis.\"",
+    "addedDate": "2026-03-06",
+    "reviewNote": "One of the most honest voices on what running an agentic company actually looks like day-to-day. No hype, no theory — just what shipped and what broke."
   }
 ]

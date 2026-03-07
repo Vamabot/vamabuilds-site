@@ -99,7 +99,7 @@
             "Orchestration"
         ],
         "addedDate": "2026-03-06",
-        "reviewNote": "In our evaluation. Built by @dotta \u2014 directly aligned with the agentic org architecture vamabuilds runs."
+        "reviewNote": "In our evaluation. Built by @dotta — directly aligned with the agentic org architecture vamabuilds runs."
     },
     {
         "id": "devclaw",
@@ -194,7 +194,7 @@
     {
         "id": "anthropic-knowledge-work-plugins",
         "name": "Anthropic Knowledge Work Plugins",
-        "description": "Open-source Claude plugins for knowledge workers. 11 plugins covering productivity, sales, and more \u2014 bundles skills, connectors, slash commands, and sub-agents for specific job functions. Compatible with Claude Cowork and Claude Code.",
+        "description": "Open-source Claude plugins for knowledge workers. 11 plugins covering productivity, sales, and more — bundles skills, connectors, slash commands, and sub-agents for specific job functions. Compatible with Claude Cowork and Claude Code.",
         "url": "https://github.com/anthropics/knowledge-work-plugins",
         "tags": [
             "Open Source",
@@ -220,5 +220,52 @@
         ],
         "addedDate": "2026-03-06",
         "reviewNote": "We used this to harden the vamabuilds VPS. Practical, specific, and written by someone who has actually run production security."
+    },
+    {
+        "id": "claude-code",
+        "name": "Claude Code",
+        "description": "Anthropic's official CLI for Claude. Runs an agentic coding session directly in your terminal — reads files, edits code, runs commands, and iterates. The ACP harness behind the vamabuilds C-suite build workflow.",
+        "url": "https://claude.ai/code",
+        "tags": [
+            "Free",
+            "Paid"
+        ],
+        "categories": [
+            "Dev Tools",
+            "Orchestration"
+        ],
+        "addedDate": "2026-03-07",
+        "reviewNote": "Core tool in the vamabuilds stack. Every Elon (CTO) build task runs through Claude Code. First-class file system access and tool use make it the most capable agentic coding runtime we've found."
+    },
+    {
+        "id": "langfuse",
+        "name": "Langfuse",
+        "description": "Open-source LLM observability and tracing. Log every agent call, trace multi-step pipelines, run evals, and track cost and latency over time. Self-hostable or cloud.",
+        "url": "https://langfuse.com",
+        "tags": [
+            "Free",
+            "Paid",
+            "Open Source"
+        ],
+        "categories": [
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-07",
+        "reviewNote": "The gap in most agentic stacks is visibility — you can't debug what you can't see. Langfuse fills it without requiring model-specific SDKs. OpenTelemetry compatible, works with Claude, GPT-4, and any OpenAI-compatible endpoint."
+    },
+    {
+        "id": "cursor",
+        "name": "Cursor",
+        "description": "AI-native code editor built on VS Code. Understands your codebase, drafts multi-file edits, and applies changes inline. Widely adopted across the agentic builder community.",
+        "url": "https://cursor.sh",
+        "tags": [
+            "Free",
+            "Paid"
+        ],
+        "categories": [
+            "Dev Tools"
+        ],
+        "addedDate": "2026-03-07",
+        "reviewNote": "The default IDE for most serious AI-native builders right now. Codebase indexing means it can reason across files rather than just the open editor. The Composer feature handles multi-file refactors that would take hours manually."
     }
 ]
