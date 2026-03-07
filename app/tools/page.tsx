@@ -25,7 +25,7 @@ export default function ToolsPage() {
       <div className="page-hero" style={{ padding: '0 0 48px', borderBottom: '1px solid var(--border)', marginBottom: '48px' }}>
         <h1>Tools</h1>
         <p style={{ marginTop: '16px' }}>
-          Every tool on this list is something I run or have run in my own agentic org. I checked the data permissions, tested the actual product, and asked myself whether I would trust it in production. If the answer was no, it's not here.
+          Every tool on this list is something I run or have run in my own agentic org. I checked the data permissions, tested the actual product, and asked myself whether I would trust it in production. If the answer was no, it&apos;s not here.
         </p>
       </div>
 

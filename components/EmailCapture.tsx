@@ -31,7 +31,7 @@ export default function EmailCapture() {
     return (
       <div style={{ textAlign: 'center', padding: '16px 0' }}>
         <p style={{ fontSize: '16px', color: 'var(--text-secondary)' }}>
-          You're in. I'll send updates when something is worth seeing.
+          You&apos;re in. I&apos;ll send updates when something is worth seeing.
         </p>
       </div>
     )
