@@ -246,6 +246,17 @@
     "description": "HTTP-native payment standard for AI agents. An agent sends a request, gets a 402 Payment Required response, pays instantly with stablecoins, and gets access. No accounts, no API keys, no KYC. Built for machine-to-machine payments at internet speed.",
     "wouldWeUse": true,
     "addedDate": "2026-03-07",
-    "reviewNote": "Used in the Synthesis hackathon stack. The cleanest model for agent-to-agent and agent-to-API payments we've seen. Zero protocol fees, zero centralization."
+    "reviewNote": "Used in the Synthesis hackathon stack. The cleanest model for agent-to-agent and agent-to-API payments we've seen. Zero protocol fees, zero centralization.",
+    "tags": [
+      "payments",
+      "infrastructure",
+      "agents",
+      "stablecoins",
+      "http"
+    ],
+    "categories": [
+      "Payments",
+      "Infrastructure"
+    ]
   }
 ]
