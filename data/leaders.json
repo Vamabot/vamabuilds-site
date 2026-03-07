@@ -120,6 +120,16 @@
     "reviewNote": "Added by Shant. High signal on model releases and open-source AI tooling."
   },
   {
+    "id": "loujaybee",
+    "name": "@loujaybee",
+    "fullName": "Lou",
+    "platform": "X",
+    "url": "https://x.com/loujaybee",
+    "description": "Field CTO at Ona. Coding agents, platform engineering, and developer experience. Building background-agents.com - a map of the self-driving codebase era. Posts from direct implementation experience, not commentary.",
+    "addedDate": "2026-03-07",
+    "reviewNote": "Practitioner-first. Curating the agentic dev tooling landscape from the inside. Added by Shant."
+  },
+  {
     "id": "elvissun",
     "name": "@elvissun",
     "fullName": "Elvis Sun",
