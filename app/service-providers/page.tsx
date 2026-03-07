@@ -41,7 +41,7 @@ export default function ServiceProvidersPage() {
         }}>
           {"We're vetting implementation partners who build agentic systems for real clients. Coming soon as we learn more from our own journey and community."}
         </p>
-        <EmailCapture placeholder="Get notified when we add vetted providers" />
+        <EmailCapture />
       </div>
     </div>
   )
